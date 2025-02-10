@@ -17,10 +17,6 @@ from tkinter import messagebox
 
 class MainApp(tk.Tk):
     def __init__(self, root, db):
-        #tk.Tk.__init__(self)
-        #self.title("Employee Management System")
-        #self.geometry("660x700")
-
         self.db = db
         self.root = root
 
